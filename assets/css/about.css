@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800');
+
+body, html {
+    width: 100%;
+    background: #ecf0f1;
+    user-select: none;
+}
+.container {
+    position: relative;
+    margin-top: 20px;
+    color: #2c3e50;
+}
+.container > .row {
+    margin: auto;
+}
+.container > .row > .logo-div > .logo {
+    width: 100px;
+    border-radius: 50%;
+}
+.container > .row > .info-div {
+    margin-left: auto;
+    margin-right: auto;
+}
+.container > .row > .info-div > h5 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+.container > .row > .info-div > .info {
+
+}

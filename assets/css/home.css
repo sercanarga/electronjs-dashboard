@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800');
+
+body, html {
+    width: 100%;
+    background: #ecf0f1;
+}
+.container {
+    position: relative;
+    margin-top: 20px;
+    background: white;
+    color: #2c3e50;
+    padding: 30px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px 1px lightgray;
+}
+.container > .head {
+    width: 30%;
+    border-bottom: 1px solid lightgray;
+    text-shadow: 0 1px lightgray;
+    margin-bottom: 20px;
+}
+.container > .row > .col > .search {
+    background: #ecf0f1;
+    padding-left: 20px;
+    padding-top: 3px;
+    box-shadow: 0 0 10px 1px lightgray;
+}
+
+.container > .row > .col > .search > .row > .col > button {
+    margin-right: 20px;
+}
+.container > .row > .col > .table-wrapper {
+    display: block;
+    max-height: 200px;
+    overflow-y: auto;
+}
+.container > .row > .col > .table-wrapper > .table > thead > tr > .table-button {
+    width: 50px;
+}
